@@ -111,12 +111,10 @@ export default function Game() {
         <h2>Yes or No?</h2>
         <p>Got a <i>burning</i> question?</p>
         <p>Enter your Yes or No question in the textbox to generate a GIF that'll answer your question!</p>
-        <p>It might take a second to load..</p>
+        <p>It might take a second to load after pressing submit each time..</p>
         <input type="text" /> <br /><br />
         <button onClick={fetchGif}>Answer my question!</button><br/><br />
         {gif && <img src={gif} />}
-        <h3></h3>
-
       </div>
     </>
   );
